@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalitha Sudheer</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="Anim.png" width="250" heigth="250">
+            <h1>Welcome to the Series of Lalitha Sudheer's Wedding</h1>
+            <a href="Wedding_InvitationCard.html" class="button-link">Invitation Card</a>
+            <a href="Wedding_InvitationVideo.html" class="button-link">Invitation Video</a>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const heading = document.querySelector("h1");
+            heading.classList.add("show");
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.body.classList.add("loaded");
+        })
+    </script>
+</body>
+</html>

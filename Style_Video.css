@@ -1,0 +1,73 @@
+/* General styles */
+html {
+    scroll-behavior: smooth; /* No change */
+}
+
+body {
+    font-family: Arial, sans-serif; /* No change */
+    background-color: rgb(220, 20, 60); /* No change */
+    color: #333; /* No change */
+    margin: 0; /* No change */
+    padding: 0; /* No change */
+    transition: opacity 2s ease; /* No change */
+    opacity: 0; /* No change */
+}
+
+.loaded {
+    opacity: 1; /* No change */
+}
+
+h1 {
+    text-align: center; /* No change */
+    font-family: cursive, 'Comic Sans MS', sans-serif; /* No change */
+    transition: opacity 2s ease; /* No change */
+    opacity: 0; /* No change */
+}
+
+.show {
+    opacity: 1; /* No change */
+}
+
+.content {
+    text-align: center;  
+    width: 90%; 
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    clip-path: none; 
+}
+
+.content {
+    text-align: center; /* No change */
+    width: 90%; /* No change */
+    background-color: rgba(255, 255, 255, 0.8); /* No change */
+    padding: 20px; /* Adjusted padding for mobile */
+    border-radius: 10px; /* No change */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* No change */
+}
+
+button,
+.button-link {
+    margin: 10px; /* No change */
+    padding: 10px 20px; /* No change */
+    font-size: 16px; /* No change */
+    border: none; /* No change */
+    border-radius: 50%; /* Adjusted border-radius for mobile */
+    background-color: #3498db; /* No change */
+    color: #fff; /* No change */
+    cursor: pointer; /* No change */
+    transition: background-color 0.3s ease; /* No change */
+    display: block; /* Changed display to block for mobile */
+    width: 60px; /* Adjusted width for mobile */
+    height: 60px; /* Adjusted height for mobile */
+    line-height: 60px; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+}
+
+.button-link:hover {
+    background-color: #2980b9; /* No change */
+}
+
+
